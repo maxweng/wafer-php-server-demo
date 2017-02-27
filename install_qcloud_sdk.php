@@ -2,8 +2,8 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 // 加载 SDK
-require_once './vendor/autoload.php';
-// require_once './weapp-sdk/AutoLoader.php';
+// require_once './vendor/autoload.php';
+require_once './weapp-sdk/AutoLoader.php';
 
 use \QCloud_WeApp_SDK\Conf as Conf;
 
@@ -13,7 +13,7 @@ if (PHP_OS === 'WINNT') {
 
 // Linux
 } else {
-    $sdkConfig = '/etc/qcloud/sdk.config';
+    $sdkConfig = './sdk.config';
 }
 
 if (!file_exists($sdkConfig)) {

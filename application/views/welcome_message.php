@@ -56,8 +56,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <h1>腾讯云微信小程序服务端 Demo - PHP</h1>
         <p>会话管理服务</p>
         <ul>
-            <li><a href="/login">登录服务</a></li>
-            <li><a href="/user">检查登录</a></li>
+            <li><a href="/wafer-php-server-demo/login">登录服务</a></li>
+            <li><a href="/wafer-php-server-demo/user">检查登录</a></li>
         </ul>
         <p>信道服务</p>
         <ul>
